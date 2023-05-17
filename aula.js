@@ -1,9 +1,8 @@
-import { Login } from "./login.js";
+
 import { Cxmsg } from "./cxmsg.js";
 
-const callback_ok = () => {
+const callback_ok = () => { }
 
-}
 const callback_naook = () => {
     const config = {
         cor: "#800",
@@ -13,6 +12,5 @@ const callback_naook = () => {
     }
     Cxmsg.mostrar(config, "Erro", "Login não efetuado! Usuário ou Senha incorretos");
 }
-
 
 Login.login(callback_ok, callback_naook);
