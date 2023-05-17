@@ -1,4 +1,4 @@
-class Login {
+export class Login {
     static logado = false;
     static matlogado = null;
     static nomelogado = null;
